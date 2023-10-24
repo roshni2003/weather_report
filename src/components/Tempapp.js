@@ -30,7 +30,7 @@ const Tempapp = () => {
                 </div>
 
                 {!city ? (
-                    <p className="errorMsg">No Data Found :(</p>
+                    <p className="errorMsg">No Data Found :(<img className="pic" src="notFound.png"></img></p>
                 ) : (
                     <>
                         <div className="info">
