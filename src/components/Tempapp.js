@@ -1,9 +1,12 @@
-import React from "react";
+import React, {useState} from "react";
 
-const Tempapp=()=>{
-    return(
+const Tempapp = () => {
+    const [city, setCity]= useState(null)
+    const [serach, setSearch]= useState("Delhi")
+    return (
         <>
-            <input className = "input" type="search"></input>
+            <div className="box">
+                            </div>
         </>
     )
 }
