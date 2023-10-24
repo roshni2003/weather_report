@@ -6,7 +6,16 @@ const Tempapp = () => {
     return (
         <>
             <div className="box">
-                            </div>
+                <div className="inputData">
+                    <input
+                        className="input"
+                        type="search"
+                        onChange={(event) => { }}>
+                    </input>
+                </div>
+
+                
+            </div>
         </>
     )
 }
