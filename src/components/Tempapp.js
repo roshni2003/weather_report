@@ -24,7 +24,9 @@ const Tempapp = () => {
                     </h1>
                     <h3 className="tempmin_max"> Min : 5.25°Cel | Max : 5.25°Cel </h3>
                 </div>
-               
+                <div className="wave-one"></div>
+                <div className="wave-two"></div>
+                <div className="wave-reethree"></div>
             </div>
         </>
     )
